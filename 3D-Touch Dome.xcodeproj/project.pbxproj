@@ -13,6 +13,8 @@
 		E25299541C0F396400E829C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25299521C0F396400E829C5 /* Main.storyboard */; };
 		E25299561C0F396400E829C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25299551C0F396400E829C5 /* Assets.xcassets */; };
 		E25299591C0F396400E829C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25299571C0F396400E829C5 /* LaunchScreen.storyboard */; };
+		E25299631C109ABA00E829C5 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25299611C109ABA00E829C5 /* TextViewController.m */; };
+		E25299641C109ABA00E829C5 /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E25299621C109ABA00E829C5 /* TextViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		E25299551C0F396400E829C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E25299581C0F396400E829C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E252995A1C0F396400E829C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25299601C109ABA00E829C5 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		E25299611C109ABA00E829C5 /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		E25299621C109ABA00E829C5 /* TextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				E252994D1C0F396400E829C5 /* AppDelegate.m */,
 				E252994F1C0F396400E829C5 /* ViewController.h */,
 				E25299501C0F396400E829C5 /* ViewController.m */,
+				E25299601C109ABA00E829C5 /* TextViewController.h */,
+				E25299611C109ABA00E829C5 /* TextViewController.m */,
+				E25299621C109ABA00E829C5 /* TextViewController.xib */,
 				E25299521C0F396400E829C5 /* Main.storyboard */,
 				E25299551C0F396400E829C5 /* Assets.xcassets */,
 				E25299571C0F396400E829C5 /* LaunchScreen.storyboard */,
@@ -140,6 +148,7 @@
 				E25299591C0F396400E829C5 /* LaunchScreen.storyboard in Resources */,
 				E25299561C0F396400E829C5 /* Assets.xcassets in Resources */,
 				E25299541C0F396400E829C5 /* Main.storyboard in Resources */,
+				E25299641C109ABA00E829C5 /* TextViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +162,7 @@
 				E25299511C0F396400E829C5 /* ViewController.m in Sources */,
 				E252994E1C0F396400E829C5 /* AppDelegate.m in Sources */,
 				E252994B1C0F396400E829C5 /* main.m in Sources */,
+				E25299631C109ABA00E829C5 /* TextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +309,7 @@
 				E252995F1C0F396400E829C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

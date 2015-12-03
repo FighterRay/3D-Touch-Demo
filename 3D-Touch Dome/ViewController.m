@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TextViewController.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (UIViewController *)previewingContext:(id<UIViewControllerPreviewing>)context viewControllerForLocation:(CGPoint) point
+{
+    TextViewController *childVC = [[TextViewController alloc] init];
+    childVC.preferredContentSize = CGSizeMake(0, 300);
+    
+    CGRect rect = CGRectMake(10, point.y - 10, self.view.frame.size.width - 20,20);
+    context.sourceRect = rect;
+    return childVC;
+}
+- (void)previewContext:(id<UIViewControllerPreviewing>)context commitViewController:(UIViewController*)vc
+{
+    [self showViewController:vc sender:self];
 }
 
 - (void)didReceiveMemoryWarning {
